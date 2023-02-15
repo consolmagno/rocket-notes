@@ -4,7 +4,7 @@ import {Input} from '../../components/Input';
 import {Button} from '../../components/Button'
 import {ButtonText} from '../../components/ButtonText';
 
-export function SingIn(){
+export function SignIn(){
   return(
     <Container>
       <Form>
