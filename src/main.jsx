@@ -7,13 +7,14 @@ import theme from './styles/theme'
 
 import {Details} from './pages/Details'
 import { Home } from './pages/Home'
+import { SingIn } from './pages/SingIn'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyles/>
-      <Home/>
+      <SingIn/>
     </ThemeProvider>
   </React.StrictMode>,
 )
