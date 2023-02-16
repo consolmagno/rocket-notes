@@ -1,4 +1,5 @@
 import {Container, Form, Avatar} from "./style";
+import { Link } from 'react-router-dom'
 import {FiArrowLeft, FiUser, FiMail, FiLock, FiCamera} from 'react-icons/fi';
 import {Input} from '../../components/Input';
 import {Button} from '../../components/Button'
@@ -7,9 +8,9 @@ export function Profile(){
   return(
     <Container>
       <header>
-        <a href="/">
+        <Link to="/">
           <FiArrowLeft/>
-        </a>
+        </Link>
       </header>
 
       <Form>
